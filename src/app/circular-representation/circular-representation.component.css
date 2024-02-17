@@ -1,0 +1,38 @@
+.dashboard-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dashboard {
+margin-top: 20px;
+  width: 250px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.dashboard:hover {
+  transform: translateY(-5px);
+}
+
+mat-progress-spinner {
+  margin-bottom: 20px;
+}
+
+/* Style the circle */
+mat-progress-spinner circle.mat-progress-spinner-circle {
+  padding: 30px; /* Add space around the circle */
+}
+
+
+mat-progress-spinner circle.mat-progress-spinner-circle {
+  color:warn;
+  stroke: white;
+}

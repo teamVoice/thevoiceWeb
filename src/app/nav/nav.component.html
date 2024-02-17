@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <img src="assets/Logo.jpg" alt="Logo" class="navbar-brand-logo">
+    <span class="navbar-brand">The Voice</span>
+
+    <!-- Toggler button with data attributes for Bootstrap collapse -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar content with collapse class -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <button class="nav-link btn" (click)="navigate('/bodycomponent')">Home</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link btn" (click)="navigate('/dashbord')">Dashboard</button>
+        </li>
+
+        <li class="nav-item dropdown">
+          <button class="nav-link dropdown-toggle btn" id="navbarDropdown"
+            aria-haspopup="true" aria-expanded="false" (click)="toggleDropdown()">
+            Collections
+          </button>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" [ngClass]="{ 'show': isDropdownOpen }">
+            <button class="dropdown-item" (click)="navigate('/details-unsolve')">Unsolve Issues</button>
+            <button class="dropdown-item" (click)="navigate('/details-solve')">Solve Issues</button>
+            <button class="dropdown-item" (click)="navigate('/Spam-details')">Spam Issues</button>
+          </div>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link btn" (click)="navigate('/login')">Logout</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

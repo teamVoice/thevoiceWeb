@@ -1,0 +1,42 @@
+/* Import Bootstrap */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Custom styles */
+.cards {
+  background-color: gray;
+}
+
+/* Container for cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust spacing between cards */
+}
+
+/* Individual card */
+.card {
+  width: calc(25% - 10px); /* Adjust the width and consider margin */
+  margin-bottom: 20px; /* Adjust the margin between cards */
+  margin: 10px; /* Adjust margin as needed */
+}
+
+/* Image inside the card */
+.card-img-top {
+  width: 100%; /* Make the image take up 100% of the card width */
+  height: auto;
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+/* Button inside the card body */
+.btn {
+  position: absolute;
+  bottom: 10px; /* Adjust the distance from the bottom */
+  right: 10px; /* Adjust the distance from the right */
+}
+
+/* Card body */
+.card-body {
+  text-align: center;
+}
+
+/* Primary button */

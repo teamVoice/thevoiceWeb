@@ -1,0 +1,19 @@
+<div class="dashboard-container">
+  <mat-card class="dashboard">
+    <mat-progress-spinner mode="determinate" [value]="(unsolvessues.length / totalIssues) * 100" color="primary"></mat-progress-spinner>
+    <p>Unsolved Issues</p>
+    <p>{{ ((unsolvessues.length / totalIssues) * 100) | number: '1.0-0' }}%</p>
+  </mat-card>
+
+  <mat-card class="dashboard">
+    <mat-progress-spinner mode="determinate" [value]="(solveissues.length / totalIssues) * 100" color="accent"></mat-progress-spinner>
+    <p>Solved Issues</p>
+    <p>{{ ((solveissues.length / totalIssues) * 100) | number: '1.0-0' }}%</p>
+  </mat-card>
+
+  <mat-card class="dashboard">
+    <mat-progress-spinner mode="determinate" [value]="(spamIssues.length / totalIssues) * 100" color="warn"></mat-progress-spinner>
+    <p>Spam Issues</p>
+    <p>{{ ((spamIssues.length / totalIssues) * 100) | number: '1.0-0' }}%</p>
+  </mat-card>
+</div>

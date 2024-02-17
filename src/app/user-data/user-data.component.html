@@ -1,0 +1,10 @@
+<div class="user-data-container">
+  <!-- Display user data -->
+  <ul class="user-data-list">
+    <li class="user-data-item" *ngFor="let user of users">
+      <span class="user-data-title">Name:</span> {{ user.name }} -
+      <span class="user-data-title">Uploaded on:</span> {{ user.uploadDate }} at {{ user.uploadTime }} -
+      <span class="user-data-title">Location:</span> {{ user.location }}
+    </li>
+  </ul>
+</div>

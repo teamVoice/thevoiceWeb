@@ -1,0 +1,38 @@
+body{
+    font-size: 20px;
+}
+img{
+    text-align-last: centre;
+    border-radius: 10px;
+}
+
+.issue-image {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .issue-description {
+    font-size: 18px; 
+    margin-top: 20px; 
+    text-align: center; 
+  }
+  
+  .btn-group {
+    margin-top: 30px; 
+  }
+  
+  .btn {
+    font-size: 16px; 
+  }
+  
+  .btn-outline-success, .btn-outline-danger {
+    border-radius: 20px; 
+  }
+  
+  .btn-outline-success:hover, .btn-outline-danger:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  

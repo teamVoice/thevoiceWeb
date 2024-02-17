@@ -1,0 +1,46 @@
+
+<h1>Unsolve-Issues</h1>
+<section id="unsolve" class="mt-5">
+  
+  <div class="container row">
+    <div *ngFor="let issue of issues" class="card ms-3" style="width: 18rem;">
+      <img [src]="issue.imageurl" class="image" alt="Issue Image">
+      <div class="card-body">
+        <p class="card-text">{{ issue.description | slice:0:50 }}</p>
+      </div>
+    </div>
+    <a href="/details-unsolve" class="btn btn-danger mt-3 p-2">View Details unsolve</a>
+  </div>
+</section>
+
+<br>
+<hr>
+<h1>Solve-Issues</h1>
+<section id="solveIssues" class="mt-5">
+
+  <div class="container row">
+    <div *ngFor="let issue of solveIssues" class="card ms-5" style="width: 18rem;">
+      <img [src]="issue.imageurl" class="image" alt="Issue Image">
+      <div class="card-body">
+        <p class="card-text">{{ issue.description | slice:0:50 }}</p>
+      </div>
+    </div>
+    <a href="/details-solve" class="btn btn-success mt-5 p-2">View Details solveIssues</a>
+  </div>
+</section>
+
+<br>
+<hr>
+<h1>Spam-Issues</h1>
+<section id="spamIssues" class="mt-5">
+
+  <div class="container row">
+    <div *ngFor="let issue of spamIssues" class="card ms-5" style="width: 18rem;">
+      <img [src]="issue.imageurl" class="image" alt="Issue Image">
+      <div class="card-body">
+        <p class="card-text">{{ issue.description | slice:0:50 }}</p>
+      </div>
+    </div>
+    <a href="/Spam-details" class="btn btn-primary mt-5">View Details spamIssues</a>
+  </div>
+</section>

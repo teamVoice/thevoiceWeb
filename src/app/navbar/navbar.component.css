@@ -1,0 +1,110 @@
+/* Base styles for navbar */
+.navbar {
+  margin: auto;
+  background-color: #7752FE;
+  border-bottom: 2px solid #dee2e6;
+  border-top: none;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Brand styles */
+.navbar-brand {
+  color: #343a40;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.navbar-brand-logo {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem; /* Adjust padding to reduce button height */
+  font-size: 0.875rem; /* Optionally, adjust font size */
+  line-height: 0.5; /* Optionally, adjust line height */
+  color: #343a40;
+  margin-right: 20px;
+  padding-top: 30px;
+  position: relative;
+  border: 1px solid transparent; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: all 0.3s ease; 
+  transform-style: preserve-3d; 
+  perspective: 100px; 
+  border-radius: 15px;
+  background: #8E8FFA;
+  box-shadow: 26px 26px 52px #393964,
+              -26px -26px 52px #e3e5ff;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+  border-color: #000000; /* Change border color on hover */
+  transform: rotateX(5deg) translateZ(5px); /* Apply rotation and translation on hover */
+}/* Base styles for navbar */
+.navbar {
+  margin: auto;
+  background-color: #7752FE;
+  border-bottom: 2px solid #dee2e6;
+  border-top: none;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Brand styles */
+.navbar-brand {
+  color: #343a40;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.navbar-brand-logo {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem; 
+  font-size: 0.875rem; 
+  line-height: 0.5; 
+  color: #343a40;
+  margin-right: 20px;
+  padding: 10px;
+  position: relative;
+  border: 1px solid transparent; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: all 0.3s ease; 
+  transform-style: preserve-3d; 
+  perspective: 100px; 
+  border-radius: 10px;
+  background: #8E8FFA;
+  box-shadow: 26px 26px 52px #393964,
+              -26px -26px 52px #e3e5ff;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+  border-color: #000000; /* Change border color on hover */
+  transform: rotateX(5deg) translateZ(5px); /* Apply rotation and translation on hover */
+}
+
+/* Navbar toggler styles */
+.navbar-toggler {
+  border-color: #343a40; /* Change border color of toggler button */
+  background: transparent;
+}
+
+
+
+/* Navbar toggler styles */
+.navbar-toggler {
+  border-color: #343a40; /* Change border color of toggler button */
+  background: transparent;
+}
+
