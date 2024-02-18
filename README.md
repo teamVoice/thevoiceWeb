@@ -29,4 +29,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 To get this project in your device
 create empty folder in your device and then
 initialize the git in that folder and use
-git clone 
+git clone https://github.com/teamVoice/thevoiceWeb.git
+in terminal of project to clone this project in your device.
+and then run the project as per the above instruction.
